@@ -1,18 +1,20 @@
-const express = require('express');
 const inquirer = require('inquirer');
-const api = require('./routes/api');
+const cTable = require('console.table');
+const db = require('./config/connection');
+const menuPrompt = require('./prompts');
 
+const initMenu = async() => {
+ const response = await inquirer.prompt(menuPrompt)
+    // .then((response) => {
+    //     switch (response.menuPrompt)
+    // });
+}
 
-const PORT = process.env.PORT || 3001;
+const initApp = async() => {
+    console.log('Welcome to the Business Organization Tracker app!');
+    console.log('Please select an option below.');
 
-const app = express();
+    initMenu();
+}
 
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-app.use('/api', api);
-
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-})
-
-
+initApp();

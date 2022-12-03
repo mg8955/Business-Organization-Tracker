@@ -8,6 +8,6 @@ const db = mysql.createConnection(
       database: 'business_db'
     },
     console.log(`Connected to business db.`)
-  );
+  ).promise();
 
 module.exports = db;
