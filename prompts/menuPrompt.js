@@ -1,8 +1,8 @@
 const menuPrompt = [
     {
         type: 'list',
-        name: 'startMenuQuestion',
-        message: 'What would you like to do?',
+        name: 'mainMenuSelection',
+        message: 'Main Menu - Available choices:',
         choices: [
             "Show all Roles",
             "Add Role",

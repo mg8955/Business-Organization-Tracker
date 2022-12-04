@@ -1,7 +1,7 @@
 const addRolePrompt = [
     {
         type: 'input',
-        name: 'roleTitle',
+        name: 'title',
         message: 'What is the role title?'
       },
       {
