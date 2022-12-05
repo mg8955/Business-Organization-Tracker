@@ -22,11 +22,6 @@ const addEmployeePrompt = [
             "CSR Manager"
         ]
       },
-      {
-        type: 'input',
-        name: 'manager',
-        message: 'Who is the manager for the new employee? Please type the number only of the "id" section shown above! (i.e. "4")'
-      }
 ]
 
 module.exports = addEmployeePrompt;
