@@ -21,7 +21,7 @@ const addEmployeePrompt = [
             "CSR",
             "CSR Manager"
         ]
-      },
+      },d 
 ]
 
 module.exports = addEmployeePrompt;
