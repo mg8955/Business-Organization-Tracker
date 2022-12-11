@@ -1,7 +1,7 @@
 # Business Organization Tracker
  ## Description
  ---
- This app is a CLI for building and managing a Business Organization Tracker. It was built using MySQL, Sequelize, Inquirer, and Node.js.
+ This app is a CLI for building and managing a Business Organization Tracker. It was built using MySQL, Sequelize, Inquirer, and Node.js.<br>
  [Video of the deployed app in action](https://drive.google.com/file/d/1bDrdkbEcMmVDuaF_7p30HXO6dInc5af8/view)
  ## Table of Contents
  [Installation](#installation)  
